@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary_color:#111974;
+    --secondary_color:#f25476;
+ --tertiary_color:#fa2f5b;
+ --quarteary_color:#1aa3ff;
+ --white_color: #FFFFFF;
+ --body_color:#63646c;
+--black_color:#000000;
+
+}
+h1{
+    line-height: 1.21;
+    font-size: 60px;
+    margin: 0 0 15px;
+   background-color:  var(--primary_color);
+}
+p{
+
+}
+body{
+
+}

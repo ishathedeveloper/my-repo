@@ -1,0 +1,89 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.banner{
+background-image: url(img/bannee.png);
+background-size: cover;
+height: 100vh;
+background-position: center;
+position: relative;
+background-repeat: no-repeat;
+z-index: 1;
+
+}
+.wrapper{
+margin: auto;
+padding: 0 15px;
+max-width: 1230px;
+}
+.content{
+display: flex;
+align-items: center;
+height: 100vh;
+}
+h1{
+color: #FFFFFF;
+font-family: Montserrat,serif;
+font-weight: 700;
+font-size: 90px;
+}
+span{
+color: rgb(48, 178, 211);
+}
+.overlap{
+top: 0;
+bottom: 0;
+right: 54%;
+position: absolute;
+left: 0;
+background-color: #111974;
+opacity: 100%;
+z-index: -1;
+}
+p{
+font-family: Montserrat,sans-serif;
+font-style: normal;
+font-weight: 400;
+
+color: #FFFFFF;
+line-height: 1.5;
+
+}
+.btn_appointment{
+text-decoration: none;
+border: 2px solid #f25476;
+color: #FFFFFF;
+background-color: #f25476;
+padding-top: 10px;
+font-size: 21px;
+padding-bottom: 10px;
+border-radius: 10px;
+padding-right: 32px;
+padding-left: 32px;
+font-family: Montserrat,sans-serif;
+}
+.btn_appointment:hover{
+background-color: #fa2f5b;
+}
+.btn_services{
+text-decoration: none;
+border: 2px solid #f25476;
+color: #FFFFFF;
+margin-left: 10px;
+padding-top: 10px;
+font-size: 21px;
+padding-bottom: 10px;
+border-radius: 10px;
+padding-right: 30px;
+padding-left: 30px;
+font-family: Montserrat,sans-serif;
+}
+.btn_services:hover{
+background-color: #f25476;
+}
+
+.testimonal-item{
+    margin: 0 15px;
+}
